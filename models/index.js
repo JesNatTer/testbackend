@@ -28,7 +28,7 @@ try {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-db.User = require('./user')(sequelize, Sequelize);
+db.User = require('./User')(sequelize, Sequelize);
 db.Follow = require('./Follow')(sequelize, Sequelize);
 db.Post = require('./Post')(sequelize, Sequelize);
 db.Like = require('./Likes')(sequelize, Sequelize);
