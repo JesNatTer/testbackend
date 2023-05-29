@@ -4,7 +4,7 @@ dotenv.config({path:`${__dirname}/.env`});
 const express = require("express");
 const cookieParser = require('cookie-parser')
 const app = express();
-console.log(process.env)
+// console.log(process.env)
 const routes = require('./routes/routes')
 
 const port = process.env.PORT || 3000;
