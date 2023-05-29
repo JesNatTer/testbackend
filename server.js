@@ -1,9 +1,12 @@
-require('dotenv').config({path:`${__dirname}/.env`});
+const dotenv = require('dotenv')
 
 const express = require("express");
 const cookieParser = require('cookie-parser')
-const routes = require('./routes/routes')
+dotenv.config();
 const app = express();
+
+const routes = require('./routes/routes')
+
 const port = process.env.PORT || 3000;
 
 app.use(express.json())
