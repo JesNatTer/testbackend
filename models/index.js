@@ -7,7 +7,7 @@ const db = {};
 console.log(process.env.DIALECT)
 
 
-const sequelize = new Sequelize(process.env.URL, {
+const sequelize = new Sequelize(config.url, {
   // host: process.env.HOST,
   // dialect: process.env.DIALECT,
   pool : {
