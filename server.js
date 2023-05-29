@@ -16,4 +16,4 @@ app.get('/', (req, res) => {
 
 app.use('/api/v1/', routes)
 
-app.listen(port, () => console.log(`app listening on port ${port}`))
+app.listen(console.log(process.env),port, () => console.log(`app listening on port ${port}`))
