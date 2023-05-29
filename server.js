@@ -1,4 +1,4 @@
-require('dotenv')config({path:`${__dirname}/.env`});
+require('dotenv')config();
 // dotenv.config({path:`${__dirname}/.env`});
 // dotenv.config({path:`${__dirname}/etc/secrets/.env`});
 const express = require("express");
