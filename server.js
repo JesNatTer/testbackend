@@ -2,7 +2,8 @@ const dotenv = require('dotenv')
 
 const express = require("express");
 const cookieParser = require('cookie-parser')
-dotenv.config();
+console.log(dotenv.config({path:`${__dirname}/.env`});)
+dotenv.config({path:`${__dirname}/.env`});
 const app = express();
 
 const routes = require('./routes/routes')
