@@ -1,10 +1,10 @@
 console.log('text')
-
+// require('dotenv').require({path:`${__dirname}/../../.env`})
 const Sequelize = require('sequelize');
 const config = require('../config/config');
 const db = {};
 
-console.log(process.env.DIALECT)
+console.log(process.env.URL)
 
 
 const sequelize = new Sequelize(process.env.URL, {
