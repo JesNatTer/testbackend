@@ -1,7 +1,7 @@
 console.log('text')
 
 const Sequelize = require('sequelize');
-const config = require('../config/config');
+// const config = require('../config/config');
 const db = {};
 
 console.log(process.env.DIALECT)
