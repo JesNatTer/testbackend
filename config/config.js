@@ -1,4 +1,5 @@
 module.exports = {
+    URL: process.env.URL,
     pool : {
       max: 5,
       min: 0,
