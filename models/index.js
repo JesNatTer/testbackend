@@ -1,3 +1,5 @@
+console.log('text')
+
 const Sequelize = require('sequelize');
 const config = require('../config/config');
 const db = {};
