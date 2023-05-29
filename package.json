@@ -11,7 +11,8 @@
     "make-seed": "npx sequelize-cli seed:generate --name demouser",
     "seed": "npx sequelize-cli db:seed:all",
     "removeseed": "npx sequelize-cli db:seed:undo:all",
-    "start": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all && node server.js --env"
+    "start": "node server.js",
+    "start2": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all && node server.js"
   },
   "keywords": [],
   "author": "",
